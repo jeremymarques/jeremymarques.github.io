@@ -1,0 +1,7 @@
+@media screen and (min-width: 521px) {
+    /* pour étendre le titre sur une seule ligne */
+    #subtitleSeni {
+        width: 120%;
+        margin-left: -10%;
+    }
+}

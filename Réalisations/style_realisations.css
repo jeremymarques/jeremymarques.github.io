@@ -1,0 +1,19 @@
+@media screen and (min-width: 521px) {
+    h1 {
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        height: 5%;
+    }
+    #title {
+        height: 25%;
+        width: 25%
+    }
+    .bloc {
+        width: 50%;
+        height: 80%;
+    }
+    #bloc2 {
+        justify-content: end;
+    }
+}

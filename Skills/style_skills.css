@@ -1,0 +1,45 @@
+@media screen and (min-width: 521px) {
+    main {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main p {
+        font-size: 1.7em;
+        font-weight: bold;
+        width: 50%;
+        height: 10%; 
+    }
+    /* skills bar */
+    * {
+        box-sizing: border-box;
+    } 
+    .container {
+        border-radius: 20px;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.274);
+    }
+    .skills {
+        text-align: right;
+        padding: 10px;
+        color:black;
+    }
+    .html { 
+        border-radius: 20px;
+        width: 90%; 
+        background-color:#f44336;
+    }
+    .css {
+        border-radius: 20px;
+        width: 70%; 
+        background-color: #2196F3;
+    }
+    .js {
+        border-radius: 20px;
+        width: 50%; 
+        background-color: #faf61a;
+    }
+    .git {
+        border-radius: 20px;
+        width: 40%; 
+        background-color: #504f4f;
+    }
+}
