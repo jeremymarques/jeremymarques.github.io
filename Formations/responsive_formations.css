@@ -46,7 +46,7 @@
     ul a {
         font-size: 2em;
         text-decoration: none;
-        color: #DE6437;
+        color: #ff8200;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;  
         /* pour mettre un contour au texte */
@@ -58,17 +58,18 @@
         font-size: 2.3em;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
-        color: #DE6437;
+        color: #ff8200;
         -webkit-text-stroke: 0.5px;
         -webkit-text-stroke-color: gray ;
         order: 1;
     }
     .subtitle1  {
-        color: black;
+        color: white;
+        font-weight: bold;  
         font-size: 1.7em;
         width: 100%;
         border-radius: 15px; 
-        background-color:#DE6437;
+        background-color:#ff8200;
     }
     a {
         text-decoration: none;
@@ -83,7 +84,7 @@
     }
     .liste {
         display: inline;
-        color:black;   
+        color:white;   
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2em;     
     }
@@ -98,8 +99,7 @@
     }
     main p {
         font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        color:black;
+        color:white;
         width: 100%;
         text-align: center;
         margin: 1em 0;
@@ -107,6 +107,8 @@
     }
 /* ----------------------footer------------------------- */
     footer {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
