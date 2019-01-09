@@ -120,12 +120,9 @@
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         color:black;
-        width: 42%;  
-        margin: 2%;
+        width: 42%;
     }
     main p {
-        margin: 1%;
-        padding: 0%;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         color:white;
@@ -133,21 +130,12 @@
     a {
         text-decoration: none;
     }
-    #cv {
-        margin-top: 2%;
-    }
-    #reseaux {
-        display: inline;
-        margin-top: 3%;
-    }
-    #tel {
-        margin-top: 8.5%;
-    }
-    #sms{
-        display: none;
-    }
-    #email {
-        margin-top: 6%;
+    .cv, .email, .reseaux {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 2em 0;
     }
 /* -------------------footer------------------------- */
      footer {
