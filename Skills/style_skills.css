@@ -15,6 +15,7 @@
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
+        margin-top: 5%;
     }
     .skillscards {
         display: flex;
@@ -26,7 +27,7 @@
         margin: 1em;
     }
     .skillscards > img {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 }

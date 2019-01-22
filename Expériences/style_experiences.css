@@ -1,7 +1,17 @@
 @media screen and (min-width: 521px) {
     /* pour étendre le titre sur une seule ligne */
     #subtitleSeni {
-        width: 120%;
-        margin-left: -10%;
+        width: 100%;
+        margin-left: 1em 0;
+    }
+    #logoRivp {
+        border-radius: 20px;
+        margin-right: 43em; 
+        margin-bottom: -5em;
+    }
+    #logoSeni {
+        border-radius: 20px;
+        margin-right: 43em; 
+        margin-bottom: -5em;
     }
 }

@@ -16,4 +16,12 @@
     #bloc2 {
         justify-content: end;
     }
+    .capture {
+        border-radius: 20px;
+        margin-right: 35em; 
+        margin-bottom: -5em;
+    }
+    a {
+        width: 50%;
+    }
 }

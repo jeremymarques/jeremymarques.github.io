@@ -1,0 +1,6 @@
+@media screen and (max-width: 520px) {
+    .capture {
+    margin-top: 1em;
+    border-radius: 20px;
+    }
+}

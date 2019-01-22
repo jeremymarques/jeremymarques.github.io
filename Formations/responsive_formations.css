@@ -105,6 +105,17 @@
         margin: 1em 0;
         order: 2;
     }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    #logoCnam {
+        margin-top: 1em;
+    }
+    #logoLycee {
+        margin-top: 1em;
+        border-radius: 20px;
+    }
 /* ----------------------footer------------------------- */
     footer {
         font-family: Arial, Helvetica, sans-serif;
