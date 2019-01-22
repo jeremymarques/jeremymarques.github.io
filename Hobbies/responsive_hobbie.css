@@ -1,0 +1,9 @@
+@media screen and (max-width: 520px) {
+    .bloc {
+        width: 100%;
+    }
+    p.subtitle1 {
+        width: 90%;
+        margin: 5%;
+    }
+}

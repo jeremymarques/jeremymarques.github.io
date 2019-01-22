@@ -71,6 +71,9 @@
         border-radius: 15px; 
         background-color:#ff8200;
     }
+    .bloc {
+        width: 90%;
+    }
     a {
         text-decoration: none;
     }
