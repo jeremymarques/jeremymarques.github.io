@@ -110,6 +110,9 @@
         width: 100px;
         height: 100px;
     }
+    .returnHome {
+        display: none;
+    }
 /* ----------------------footer------------------------- */
     footer {
         font-family: Arial, Helvetica, sans-serif;

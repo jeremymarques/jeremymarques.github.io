@@ -1,8 +1,10 @@
-#logoRivp {
-    margin-top: 1em;
-    border-radius: 20px; 
-}
-#logoSeni {
-    margin-top: 1em;
-    border-radius: 20px;
+@media screen and (max-width: 520px) {
+    #logoRivp {
+        margin-top: 1em;
+        border-radius: 20px; 
+    }   
+    #logoSeni {
+        margin-top: 1em;
+        border-radius: 20px;
+    }
 }

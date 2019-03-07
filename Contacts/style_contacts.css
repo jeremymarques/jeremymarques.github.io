@@ -137,6 +137,32 @@
         justify-content: center;
         margin: 2em 0;
     }
+    .zoomLogo {
+        transition: transform .2s;
+    }
+    .zoomLogo:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+    }
+    /* return home button */
+    .returnHome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 0.2em;
+        right: 0.2em;
+        background-color: rgba(0, 0, 0, 0.6);
+        border: solid 4px #ff8200;
+        border-radius: 40px;
+    }
+    .returnHome > img {
+        width: 50%;
+        height: 50%;
+    }
 /* -------------------footer------------------------- */
      footer {
         font-family: Arial, Helvetica, sans-serif;

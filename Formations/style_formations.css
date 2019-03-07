@@ -102,7 +102,7 @@
         font-weight: bold;  
         /* pour mettre un contour au texte */
         -webkit-text-stroke: 0.5px;
-        -webkit-text-stroke-color: gray ;
+        -webkit-text-stroke-color: gray;
     }
     .subtitle1  {
         color: white;
@@ -111,6 +111,11 @@
         width: 100%;
         border-radius: 15px; 
         background-color:#ff8200;
+        transition: all 0.5s ease-in-out;
+    }
+    .subtitle1:hover {
+        color: #ff8200;
+        background-color: white;
     }
     .subtitle2 {
         font-size: 1.5em;
@@ -133,7 +138,9 @@
         margin-right: 6.5em;
     }
     a {
+        color: white;
         text-decoration: none;
+        transition: transform .2s;
     }
     span {
         display: flex;
@@ -153,10 +160,42 @@
     .logo {
         margin-right: 1em; 
     }
+    #logoCnam {
+        transition: transform .2s;
+    }
     #logoLycee {
         border-radius: 20px;
         margin-right: 34em; 
         margin-bottom: -5em;
+        transition: transform .2s;
+    }
+    #logoCnam:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+        }
+    #logoLycee:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+      }
+    /* return home button */
+    .returnHome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 0.2em;
+        right: 0.2em;
+        background-color: rgba(0, 0, 0, 0.6);
+        border: solid 4px #ff8200;
+        border-radius: 40px;
+    }
+    .returnHome > img {
+        width: 50%;
+        height: 50%;
     }
 /* -------------------footer------------------------- */
     footer {
