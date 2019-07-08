@@ -6,7 +6,7 @@
     body {
         width: 100%;
         height: 100%;   
-        background-image : url(../Accueil/background.png);
+        background-image : url(../images/background.png);
         background-repeat : no-repeat;
         background-attachment: fixed;
         background-position: center;
@@ -41,6 +41,9 @@
     .afficher {
         display: flex; /* affiche le menu lorsque que le nom de la classe se change en ".afficher" avec js */
     }      
+    #accueil {
+        display: none;
+    }
     #menuchild a {
         text-decoration: none;
         color: #ff8200;
@@ -58,8 +61,17 @@
         transition: all 0.6s ease;
     }    
     .lien:hover {
-        transform: scale(1);
         text-shadow: 1px 1px 50px black;
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+    }
+     /* Fix the hover on the current page */
+     .current {
+        text-shadow: 1px 1px 50px black;
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
     }
     /* burger menu */
     .bar1, .bar2, .bar3 {
@@ -102,83 +114,49 @@
         font-weight: bold;  
         /* pour mettre un contour au texte */
         -webkit-text-stroke: 0.5px;
-        -webkit-text-stroke-color: gray;
+        -webkit-text-stroke-color: gray ;
+        margin: 1em 0%;
     }
     .subtitle1  {
         color: white;
         font-size: 1.7em;
-        font-weight: bold;
         width: 100%;
         border-radius: 15px; 
         background-color:#ff8200;
-        transition: all 0.5s ease-in-out;
-    }
-    .subtitle1:hover {
-        color: #ff8200;
-        background-color: white;
-    }
-    .subtitle2 {
-        font-size: 1.5em;
-    }
+    }   
     .bloc {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         text-align: center;   
         font-family: Arial, Helvetica, sans-serif;
-        color:white;
-        width: 100%;       
-        margin: 1em 0;  
+        font-weight: bold;
+        color:black;
+        width: 42%;
     }
-    .subBloc {
+    main p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color:white;
+    }
+    a {
+        text-decoration: none;
+    }
+    .cv, .email, .reseaux {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-right: 6.5em;
+        justify-content: center;
+        margin: 2em 0;
     }
-    a {
-        color: white;
-        text-decoration: none;
+    .zoomLogo {
         transition: transform .2s;
     }
-    span {
-        display: flex;
-        justify-content:center;
-        width: 100%; 
-    }
-    .liste {
-        display: inline;
-        color:white;   
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;     
-    }
-    img {
-        width: 100px;
-        height: 100px;
-    }
-    .logo {
-        margin-right: 1em; 
-    }
-    #logoCnam {
-        transition: transform .2s;
-    }
-    #logoLycee {
-        border-radius: 20px;
-        margin-right: 34em; 
-        margin-bottom: -5em;
-        transition: transform .2s;
-    }
-    #logoCnam:hover {
+    .zoomLogo:hover {
         -ms-transform: scale(1.5); /* IE 9 */
         -webkit-transform: scale(1.5); /* Safari 3-8 */
         transform: scale(1.5); 
-        }
-    #logoLycee:hover {
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
-        transform: scale(1.5); 
-      }
+    }
     /* return home button */
     .returnHome {
         display: flex;
@@ -198,7 +176,7 @@
         height: 50%;
     }
 /* -------------------footer------------------------- */
-    footer {
+     footer {
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         display: flex;
@@ -208,4 +186,4 @@
         height: auto;
         margin: 1em 0;
     }
-}   
+}
