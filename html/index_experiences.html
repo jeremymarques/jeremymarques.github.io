@@ -10,7 +10,6 @@
         <link href="../css/responsive /responsive_formations.css" rel="stylesheet" type="text/css" media="screen">
         <link href="../css/responsive /responsive_experiences.css" rel="stylesheet" type="text/css" media="screen">
         <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
-        <script src="https://cdn.jsdelivr.net/npm/vue"></script> 
     </head>
     <body>
         <nav>
@@ -31,29 +30,49 @@
             </ul>
         </nav>
         <main> 
-            <div class="bloc">
+            <div class="bloc" id="blocBakhtech">
                 <div class="subBloc">
-                    <a href="https://www.rivp.fr/" class="logo" target="_blank"><img id="logoRivp" src="../images/logo_rivp.jpg" alt="" title="Cliquer pour visiter le site web de la RIVP">
+                    <a href="#"><img id="logoBakhtech" class="logo" src="../images/logo_bakhtech.png" alt="" title="Cliquer pour en savoir plus"></a>
                 </div>
+                <div id="modalBakhtech" class="modal">
+                    <a href="https://www.bakhtech.com/" target="_blank"><p class="subtitle1" title="Cliquer pour visiter le site web">Bakhtech</p></a>
+                    <p class="subtitle2">Stagiaire<span>mars 2019 - avril 2019 • 2 mois</span></p>
+                    <ul class="liste">
+                        <li>• Audit de site web, test si les sites web sont accessible numériquement (lecteur d'écran, analyse du code source, navigation au clavier...)</li>
+                        <li>• Réalisation sous wordpress de plusieurs site web accessible</li>
+                        <li>• Réalisation from scratch d'une application web pour la sensibilisation de l'accessibilté numérique</li> 
+                        <li>• Travail en méthode agile, réunion d'équipe, tâche organiser en To Do List sous Trello</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bloc" id="blocRivp">
+                <div class="subBloc">
+                    <a href="#"><img id="logoRivp" class="logo" src="../images/logo_rivp.jpg" alt="" title="Cliquer pour en savoir plus"></a>
+                </div>
+                <div id="modalRivp" class="modal">
                     <a href="https://www.rivp.fr/" target="_blank"><p class="subtitle1" title="Cliquer pour visiter le site web">RIVP - Régie Immobilière de la Ville de Paris</p></a>
                     <p class="subtitle2">Gardien d'immeuble<span>janvier 2017 - août 2018 • 1 an 8 mois</span></p>
-                <ul class="liste">
-                    <li>• Accueil, information et orientation des résidents et visiteurs</li>
-                    <li>• Entretien des parties communes, petite maintenance</li>
-                    <li>• Réception, enregistrement des réclamations</li> 
-                    <li>• Médiation/gestion des conflits entre locataires</li>
-                </ul>
-            </div>
-            <div class="bloc">
-                <div class="subBloc">
-                    <a href="http://www.seni.fr/" class="logo" target="_blank"><img id="logoSeni" src="../images/logo_seni.png" alt="" title="Cliquer pour visiter le site web de SENI">
+                    <ul class="liste">
+                        <li>• Accueil, information et orientation des résidents et visiteurs</li>
+                        <li>• Entretien des parties communes, petite maintenance</li>
+                        <li>• Réception, enregistrement des réclamations</li> 
+                        <li>• Médiation/gestion des conflits entre locataires</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="bloc" id="blocSeni">
+                <div class="subBloc">
+                    <a href="#"><img id="logoSeni" class="logo" src="../images/logo_seni.png" alt="" title="Cliquer pour en savoir plus"></a>
+                </div>
+                <div id="modalSeni" class="modal">
                     <a href="http://www.seni.fr/" target="_blank"><p class="subtitle1" id="subtitleSeni" title="Cliquer pour visiter le site web">SENI - Service d'Entretien et de Nettoyage Industriel</p></a>
-                <p class="subtitle2">Agent d’entretien véhiculé<span>mars 2016 - novembre 2016 • 9 mois</span></p>
-                <ul class="liste">
-                    <li>• Déplacement sur plusieurs sites avec véhicule de fonction</li>
-                    <li>• Entretien et maintenance des parties communes</li>
-                </ul> 
+                    <p class="subtitle2">Agent d’entretien véhiculé<span>mars 2016 - novembre 2016 • 9 mois</span></p>
+                    <ul class="liste">
+                        <li>• Déplacement sur plusieurs sites avec véhicule de fonction</li>
+                        <li>• Entretien et maintenance des parties communes</li>
+                        <li>• Gestion de mon planning autonome</li>
+                    </ul> 
+                </div>
             </div>
             <a class="returnHome" title="Retour à l'accueil" href="../index.html"><img src="../images/home.png" alt=""></a>
         </main>
@@ -61,5 +80,6 @@
             <p>&copy; 2019 - Tout droits réservés.</p>
         </footer>
         <script src="../js/script.js"></script>
+        <script src="../js/script_modal.js"></script>
     </body>
 </html>

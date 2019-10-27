@@ -1,29 +1,33 @@
 @media screen and (min-width: 521px) {
+    .modal {
+        display: none;
+        border-radius: 10px;
+        background-color: #333333;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    }
     /* pour étendre le titre sur une seule ligne */
     #subtitleSeni {
         width: 100%;
         margin-left: 1em 0;
     }
-    #logoRivp {
+    .logo {
+        height: 100px;
+        width: 100px;
         border-radius: 20px;
-        margin-right: 43em; 
-        margin-bottom: -5em;
         transition: transform .2s;
     }
-    #logoRivp:hover {
+    #logoBakhtech {
+        /* margin-top: 150px; */
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+        background-color:#2C0932;
+        transition: transform .2s;
+    }
+    .logo:hover {
         -ms-transform: scale(1.5); /* IE 9 */
         -webkit-transform: scale(1.5); /* Safari 3-8 */
         transform: scale(1.5); 
-      }
-    #logoSeni {
-        border-radius: 20px;
-        margin-right: 43em; 
-        margin-bottom: -5em;
-        transition: transform .2s;
     }
-    #logoSeni:hover {
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
-        transform: scale(1.5); 
-      }
+        
 }
